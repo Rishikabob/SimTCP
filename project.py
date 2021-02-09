@@ -22,7 +22,7 @@ def send(sock: socket.socket, data: bytes):
                 over a simulated lossy network.
         data -- A bytes object, containing the data to send over the network.
     """
-
+    "TEST COMMIT"
     # Naive implementation where we chunk the data to be sent into
     # packets as large as the network will allow, and then send them
     # over the network, pausing half a second between sends to let the
